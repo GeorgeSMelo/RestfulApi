@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RestAplication</string>
+    <string name="userid">Usuario</string>
+    <string name="title">Título</string>
+    <string name="body">Mensaje</string>
+    <string name="enviar">Enviar</string>
+</resources>
