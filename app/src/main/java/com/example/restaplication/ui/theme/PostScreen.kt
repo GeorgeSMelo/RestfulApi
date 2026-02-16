@@ -95,7 +95,7 @@ fun PostScreen(navController: NavController) {
             onClick = { navController.popBackStack() },
             modifier = Modifier.fillMaxWidth()
         ) {
-            Text("Ir a Método GET")
+            Text(stringResource(R.string.ir_metodo_get))
         }
     }
 }

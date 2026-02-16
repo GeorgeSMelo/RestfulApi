@@ -4,4 +4,7 @@
     <string name="title">Título</string>
     <string name="body">Mensaje</string>
     <string name="enviar">Enviar</string>
+    <string name="get">Obtener GET</string>
+    <string name="ir_metodo_get">Ir al metodo GET</string>
+    <string name="ir_metodo_post">Ir al metodo POST</string>
 </resources>

@@ -6,11 +6,13 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.android.volley.Request
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import com.example.restaplication.R
 import org.json.JSONObject
 
 @Composable
@@ -57,14 +59,14 @@ fun GetScreen(navController: NavController) {
             },
             modifier = Modifier.fillMaxWidth()
         ) {
-            Text("Obtener (GET)")
+            Text(stringResource(R.string.get))
         }
 
         Button(
             onClick = { navController.navigate("post") },
             modifier = Modifier.fillMaxWidth()
         ) {
-            Text("Ir a Método POST")
+            Text(stringResource(R.string.ir_metodo_post))
         }
     }
 }
